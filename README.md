@@ -6,6 +6,7 @@ This repository provides a simple example showing how eliminating a dependency c
 
 **BucketStack** - contains an S3 bucket
             - contains commented out code showing the current `this.exportValue(this.bucket.bucketName)` workaround
+
 **LambdaStack** - contains a Lambda function that uses the S3 Bucket's name as an env variable. That's the cross stack dependency.
             - handler.ts - irrelevant to this example, it's just a placeholder.
 
